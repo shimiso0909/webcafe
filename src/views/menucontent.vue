@@ -9,14 +9,11 @@
                 美味しいブレンドコーヒーとヘルシーなオーガニックフードで体の内側から癒されてください。</p>  
 
       </div>
-      <grid></grid>
-      
-        
-      
-        
-      
-    </div>
-    <global-footer></global-footer>
+        </div>
+        <!--自作コンポーネントにもクラス指定可能-->
+        <grid class="wrapper grid"></grid>
+        <global-footer></global-footer>
+
 
     </div>
     
@@ -53,6 +50,16 @@ export default {
 .menu-content p{
     margin:10px 0 0;
     font-size:1.125rem;
+}
+.grid{
+    display:grid;
+    /**これ以上小さくならない→minmax */
+    /**Webでのデフォルトはrepeat(3,1fr) */
+    grid-template-columns: repeat(auto-fit,minmax(240px,1fr));
+    gap:26px;
+    margin-top:6%;
+    margin-bottom:50px;
+
 }
 /**モバイル版 */
 @media(max-width:600px){

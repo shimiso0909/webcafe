@@ -2,7 +2,7 @@
 
     <div>
         <global-header></global-header>
-        contact
+        
         <global-footer></global-footer>
     </div>
 </template>
