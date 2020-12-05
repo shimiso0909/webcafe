@@ -64,7 +64,7 @@ export default {
   font-size:2.5rem;
 }
 .home-content{
-  margin-top:20%;i
+  margin-top:20%;
 }
 }
 </style>
