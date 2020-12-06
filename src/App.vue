@@ -37,7 +37,5 @@ body{
   background-position: center top;
   background-repeat: no-repeat;
 }
-
-
 </style>
 

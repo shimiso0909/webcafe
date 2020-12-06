@@ -14,7 +14,7 @@
         
         
         <contactmap class="wrapper"></contactmap>
-        <contactsns class="wrapper"></contactsns>
+        <contactsns style="background:#FAF7F0;"></contactsns>
         
         
         
