@@ -3,7 +3,7 @@
         <h2 class="page-title">contact</h2>
         <form action="#">
             <div>
-                <label for="name">お名前</label>
+                <label for="name">おはよう</label>
                 <input type="text" id="name" name="your-name">
             </div>
             <div>
